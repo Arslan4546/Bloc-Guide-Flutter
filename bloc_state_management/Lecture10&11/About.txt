@@ -1,0 +1,3 @@
+--> in this lecture we will learn how to handle api with Bloc state mangement.
+--> for further understanding please see the code documentation in the code folder
+--> and also learn the lecture 11 that is the filtered list practice in the code folder 
