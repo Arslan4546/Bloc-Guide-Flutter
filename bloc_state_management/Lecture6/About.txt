@@ -1,0 +1,3 @@
+--> in this example we will learn how to handle multiple states and also learn bloc pattren and mangement.
+--> in this lecture we have learned how can handle the multiple states in bloc and also use te multiple BlocProvider() for this 
+--> in this lectrue we use the switch as simple but get the value from the slider event and change in the Bloc Accordingly 

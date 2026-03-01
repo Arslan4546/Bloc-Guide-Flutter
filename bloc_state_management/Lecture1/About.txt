@@ -1,0 +1,5 @@
+--> in this lecture we will learn bloc state management
+--> BloC follows the solid principle 
+--> can separate the bussiness logic from the UI
+--> the project will be testable after imlementing bloc state management
+--> In this course we will also use equitable package

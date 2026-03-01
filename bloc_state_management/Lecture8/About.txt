@@ -1,0 +1,2 @@
+--> In this lecture we will learn how to insert and delete from the list using 
+bloc state managaement and how can we handle it lets overview the code folder for code.

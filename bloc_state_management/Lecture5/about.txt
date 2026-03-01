@@ -1,0 +1,5 @@
+--> in this lectrue we will learn the events and bloc processing and how the state changes accordingly 
+--> in this lectre we will make the counter app and manage the functionality according to our requirment 
+--> also use the bloc library to create the bloc files using vs code extension
+--> In this lecture we have learned the counter app functionalities 
+--> also we have learned the bloc class , state class and event class 

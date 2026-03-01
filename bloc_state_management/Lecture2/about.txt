@@ -1,0 +1,7 @@
+--> In this lecture we will learn equatable package.. 
+--> also learn why we need this...
+--> In flutter by-default ik object ka instance dosry k equal ni ho skta chahee uss object k constructor mai values same bhi hoon
+but ik instance apny equal ho skta hai 
+--> In flutter we have this error q ik same constructor mai values hain but wo dono equal ni hai ye hmari problem hai lets explore its solution.
+--> we use equatable package to remove this error and solve accordingly 
+--> to go deeper into this please review the code folder.

@@ -1,0 +1,3 @@
+--> in this lecture we only learned to installing the plugin in vs code/ andriod studio
+--> go to extension and install bloc and just create and folder bloc in the lip and then right click on the folder 
+to create further bloc classes
