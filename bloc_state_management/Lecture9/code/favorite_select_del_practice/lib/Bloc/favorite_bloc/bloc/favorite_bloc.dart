@@ -18,7 +18,7 @@ class FavoriteBloc extends Bloc<FavoriteEvent, FavoriteState> {
     on<UnSelectedItemEvent>(unSelectedItem);
     on<DeleteSelectedItemEvent>(deleteSelectedItem);
   }
-
+  // this is the logic for fetching list
   void fetchListFun(FetchListEvent event, Emitter<FavoriteState> emit) async {
     favoriteList = await favoriteRepository.fetchItems();
 
@@ -30,6 +30,8 @@ class FavoriteBloc extends Bloc<FavoriteEvent, FavoriteState> {
     );
   }
 
+  // and this is the logic for adding item into the temp list and also update the
+  // main list to avoid the state clash
   void favItemFun(FavoriteItemEvent event, Emitter<FavoriteState> emit) async {
     final index = favoriteList.indexWhere(
       (element) => element.id == event.item.id,
@@ -55,6 +57,7 @@ class FavoriteBloc extends Bloc<FavoriteEvent, FavoriteState> {
       ),
     );
   }
+  // this is the logic for adding item into the temp list
 
   void selectedItem(
     SelectedItemEvent event,
@@ -65,6 +68,7 @@ class FavoriteBloc extends Bloc<FavoriteEvent, FavoriteState> {
       state.copyWith(tempSelectedItemsList: List.from(tempSelectedItemsList)),
     );
   }
+  // this is the logic for removing item from the temp list
 
   void unSelectedItem(
     UnSelectedItemEvent event,
@@ -76,6 +80,8 @@ class FavoriteBloc extends Bloc<FavoriteEvent, FavoriteState> {
     );
   }
 
+  // this is the logic for deleting item from the temp list and also update the
+  // main list to avoid the state clash
   void deleteSelectedItem(
     DeleteSelectedItemEvent event,
     Emitter<FavoriteState> emit,
