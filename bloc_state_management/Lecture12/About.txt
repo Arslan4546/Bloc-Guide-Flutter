@@ -1,0 +1,8 @@
+--> In this lecture we will learn global bloc and  bloc with limited context
+--> humm ab tak global bloc use krty aa rhy hain jo k ik achi practic ni hai iss mai humm local blog jin ka scope
+limited hota hai iss ko use krny k maqsad ye hai k ye app ko efficient banaty hain 
+--> local bloc prevents memory leckage 
+--> althought dart compiler is the garbage collector but as a developer we dispose the utilities that cause the memory leckage.
+--> In this lecturew we will build the counter app using local bloc which has the limited context
+--> lets practice and show case you skill in this project 
+  
