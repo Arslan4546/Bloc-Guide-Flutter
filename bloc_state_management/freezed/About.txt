@@ -1,0 +1,5 @@
+--> In this lecture we will learn the flutter freez.
+--> in this lecture we will also learn how to hanlde null check errors.
+--> for further knowledge visit the flutter freez official package 
+--> so in this lecture i learn k kesy null values ko tackle krna hai flutter freez ka use krty hue 
+--> and now lets take a look on the code folder in this lecture 
