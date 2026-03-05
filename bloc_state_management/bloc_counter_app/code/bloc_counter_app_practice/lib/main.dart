@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       create: (_) => CounterBloc(),
       child: MaterialApp(
         title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(primarySwatch: Colors.blue),
         home: const CounterScreen(),
       ),
