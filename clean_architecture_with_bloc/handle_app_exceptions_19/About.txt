@@ -1,0 +1,2 @@
+--> in this lecture we will learn how to handle app exception in
+your appplication effeciently 
