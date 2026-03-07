@@ -1,0 +1,2 @@
+--> In this lecture we will learn about making the api using freezed
+--> stuck on lecture 30 now we will continue after a short break.

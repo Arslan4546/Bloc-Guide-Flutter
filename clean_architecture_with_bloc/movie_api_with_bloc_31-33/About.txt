@@ -1,0 +1,4 @@
+--> in this lecture we only implement the api response class.
+--> lets dive into the project into the code folder
+--> also learn how to make movie api using freez and how to handle null values using freeez in lecture 32
+--> lecture 33 also covered in this video
