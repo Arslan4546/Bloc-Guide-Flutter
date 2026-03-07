@@ -1,0 +1,8 @@
+--> in this lecture we will learn about dependency injection. 
+--> also learn how to use dependency injection in our application.
+--> also learn how to use dependency injection using dummy data.
+--> a dependecny injection is a design pattren. 
+--> use the DI using external sources so that you cannot able to create the instance of 
+current class within the project but use the external instances 
+--> we will use the getIT package for dependency injection
+--> 
