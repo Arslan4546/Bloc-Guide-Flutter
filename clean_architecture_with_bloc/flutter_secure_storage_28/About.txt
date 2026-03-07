@@ -1,0 +1,4 @@
+--> In this lecture we will learn about the flutter securew stroage 
+--> we will use the secure stroage package to uitlize it 
+--> secure stoarge encrypt our data and the we use singelton pattren to use that 
+data to our application.
